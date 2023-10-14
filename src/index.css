@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.recharts-cartesian-axis-line {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .recharts-wrapper,
+  .recharts-surface {
+    width: 100% !important;
+  }
+}
